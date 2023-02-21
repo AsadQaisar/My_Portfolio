@@ -17,6 +17,8 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!--JavaScript function to push email and show sweet alert (modal pop-up) on contact form-->
+        <!--Using smtpjs.com service to push email-->
         <script>
             function required()
             {               
@@ -38,8 +40,8 @@
             {
                 Email.send({
                     Host : "smtp.elasticemail.com",
-                    Username : "asadqaisar45@gmail.com",
-                    Password : "6FA54393A14C2E149A93284909E333EA51B7",
+                    Username : "smtp_username",
+                    Password : "smtp_issued_password",
                     To : 'asadqaiser45@gmail.com',
                     From : 'asadqaisar45@gmail.com',
                     Subject : "Your Portfolio",
